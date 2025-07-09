@@ -1,117 +1,84 @@
-
 # Pipeline Pigs and Accessories Limited
 
-**Asset & Non-Asset Disposal Form 🗂️**  
-**Payment Retirement Report Form 📄**
+**Payment Retirement Report 🧾**
 
-This project features **two robust, responsive, and policy-compliant forms** created for **Pipeline Pigs and Accessories Limited**, a Pipeline Flow Assurance Company. These forms streamline internal documentation, reporting, and approvals for both **asset disposal** and **payment retirements**, ensuring accountability and compliance with company policies.
-
----
-
-## 🔍 Form Overviews
-
-### 🧾 1. Asset & Non-Asset Disposal Form
-
-#### 📋 Key Features
-
-- **Policy-Based Approval Workflow**  
-  Enforces disposal rules including MD/CEO sign-off and bans unauthorized cash payments.
-
-- **Asset & Department Tracking**  
-  Captures asset data such as serials, units, and disposal recommendations.
-
-- **Disposal Action Logging**  
-  Logs sale prices, payment methods, buyer details, and evidence uploads.
-
-- **Approval Flow**  
-  Status-select fields for Warehouse, PM, AGM, and Chief Accountant authorization.
-
-- **Photo & Evidence Upload**  
-  Image file inputs for items and receipts.
-
-- **Responsive Design**  
-  Mobile-first layout using Bootstrap 5 for accessibility on any device.
-
-- **Clean UI & Branding**  
-  Built to match Pipeline Pigs and Accessories Limited’s brand aesthetics.
+This repository contains a **responsive, policy-compliant Payment Retirement Form** custom-built for **Pipeline Pigs and Accessories Limited**, a Pipeline Flow Assurance Company. It streamlines payment retirement and reconciliation while ensuring transparency, traceability, and compliance with internal audit requirements.
 
 ---
 
-### 🧾 2. Payment Retirement Report
+## 📋 Form Overview
 
-#### 📋 Key Features
+### ✨ Key Features
 
-- **Structured Expenditure Input Table**  
-  Allows entry of up to 10 detailed expenses with quantity, rate, naira/kobo splits, and total calculations.
+- **Policy-Based Reporting Format**  
+  Enforces structure for expenses, account code tracking, refund reconciliation, and departmental approvals.
 
-- **Authorization Fields**  
-  Captures retiree and approval information including signature statuses.
+- **Clean UI with Company Branding**  
+  Uses a styled green-themed Bootstrap layout that reflects Pipeline Pigs and Accessories Limited’s brand color.
 
-- **Financial Reconciliation Section**  
-  Handles fund return status with support for receipt uploads (PDF/JPG/PNG).
+- **Dynamic Expense Breakdown**  
+  Allows user to input multiple expense rows with quantity, description, and amount in Naira and Kobo.
 
-- **Departmental Logging**  
-  Includes CRF number, accounts/admin inputs, and finalization date.
+- **Approval Workflow Integration**  
+  Includes retirement by, signature status, and approving officers with selection dropdowns.
 
-- **Smart UI with Bootstrap 5**  
-  Fully responsive layout with custom success-themed colors and visual clarity.
+- **Evidence Upload**  
+  Attach proof of expenditure and receipt for any returned funds.
 
-- **File Uploads Supported**  
-  Users can upload payment and retirement receipts directly from any device.
+- **Fully Responsive**  
+  Optimized for mobile and desktop views using Bootstrap 5.3.
 
 ---
 
-## 📸 Visual Previews
+## 🖼️ Screenshots
 
-### Asset Disposal Form Header  
-![Preview 1](img/shot1.png)
+### ✅ Form Header & Branding
+![Preview](img/logo.png)
 
-### Disposal Entry Section  
-![Preview 2](img/shot2.png)
+### ✅ Dynamic Expense Table
+![Preview](img/shot1.png)
+
+### ✅ Signature and Authorization Section
+![Preview](img/shot2.png)
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **HTML5** – For semantic, structured layout  
-- **CSS3 + Custom Styling** – For modern, accessible visual design  
-- **Bootstrap 5.3** – For responsive UI and consistent component structure  
-- **File Upload Support** – Accepts receipts in JPG, PNG, and PDF
+- **HTML5** – Semantic structure
+- **Bootstrap 5.3** – Responsive grid and components
+- **CSS3** – Custom stylings
 
 ---
 
-## 🚀 How to Use
+## 🔍 How It Works
 
-### Asset Disposal Form  
-1. Enter asset info: name, quantity, serial, etc.  
-2. Comply with disposal policies.  
-3. Log sale details and upload payment proof.  
-4. Get multi-level approval via drop-downs.  
-5. Submit or print the completed form.
-
-### Payment Retirement Report  
-1. Fill in personal & departmental data.  
-2. Input detailed expenditures in the structured table.  
-3. Record amounts spent, returned, or to be refunded.  
-4. Upload receipts and finalize signatures.  
-5. Submit the report to Accounts/Admin.
+1. **Enter Basic Info** – Name, department, and position.
+2. **List Expenses** – Input quantity, details, rate, and amount (split into Naira & Kobo).
+3. **Total Summary** – Calculate totals, advance deductions, and final reconciliation.
+4. **Authorizations** – Complete with signature statuses and name of approvers.
+5. **Upload Receipts** – Attach supporting documents.
+6. **Submit** – Process or print the completed form.
 
 ---
 
-## 🧠 Skills You'll Learn
+## 📦 File Structure
 
-- Designing **responsive business forms**  
-- Structuring **approval-based workflows**  
-- Managing **financial reconciliation forms**  
-- Creating **user-friendly HTML tables**  
-- Applying **professional branding in UI design**
+```bash
+├── index.html             # Main form file
+├── style.css              # Custom styling (if needed)
+├── img/
+│   ├── logo.png           # Company logo
+│   ├── shot1.png          # Screenshot preview
+│   └── shot2.png          # Additional preview
+```
 
 ---
 
 ## 🔖 Tags
 
-#AssetDisposal #PaymentRetirement #Bootstrap5 #ResponsiveDesign #PipelineCompany #HTMLForms #FormUI #AccountingForms #PipelinePigs
+#ExpenseReport #Finance #Bootstrap5 #ResponsiveForms #PipelineCompany #HTML5 #PPAForms
 
 ---
 
-**Developed for secure, trackable, and policy-compliant asset and payment reporting at Pipeline Pigs and Accessories Limited.** ✅📋💼
+**Crafted for financial clarity, accountability, and audit-readiness at Pipeline Pigs and Accessories Limited.** 💼✅

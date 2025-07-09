@@ -1,9 +1,9 @@
 body {
-  background-color: #f8f9fa;
+  background-color: #d1e7dd;
   font-family: Arial, sans-serif;
 }
 .report-card {
-  border: 1px solid #ced4da;
+  border: 1px solid #adb5bd;
   border-radius: 12px;
   padding: 25px;
   background: #ffffff;
@@ -19,3 +19,19 @@ body {
 .form-label {
   font-weight: 600;
 }
+table th, table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.bg-table td,
+.bg-table th {
+  background-color: #d1e7dd !important;
+  /* box-shadow: none !important; */
+}
+
+table th,
+table td {
+  border: 1px solid #adb5bd !important;
+}
+
